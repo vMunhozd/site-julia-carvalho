@@ -1,0 +1,50 @@
+{
+  "profile": {
+    "name": "Júlia de Carvalho",
+    "title": "Psicóloga Clínica | CRP 08/41302",
+    "tagline": "Explorando a coragem de ser autêntica, um passo de cada vez",
+    "bio": "Psicóloga especialista em Análise do Comportamento e Terapia de Aceitação e Compromisso (ACT). Atuo com psicoterapia online, ajudando você a desenvolver flexibilidade psicológica e construir uma vida com mais significado e autenticidade.",
+    "email": "",
+    "phone": "(45) 99999-9525",
+    "whatsapp": "5545999952507",
+    "instagram": "@psi.juliadecarvalho",
+    "linkedin": "",
+    "location": "Cascavel, PR — Atendimento Online",
+    "logo_path": "assets/images/profile/arquivo final - CORES-01.png",
+    "profile_photo": "assets/images/profile/SaveClip.App_627145663_18553704637041648_1836106983414697713_n.jpg"
+  },
+  "colors": {
+    "primary": "#1a1a2e",
+    "secondary": "#16213e",
+    "accent": "#e94560",
+    "text": "#eaeaea",
+    "text_muted": "#a0a0a0",
+    "background": "#0f0f1a",
+    "surface": "#1a1a2e"
+  },
+  "projects": [],
+  "instagram_posts": [
+    {
+      "path": "assets/images/instagram/Captura de tela 2026-04-04 190935.png",
+      "filename": "Captura de tela 2026-04-04 190935.png",
+      "date": "2026-04-04T19:09:37.130645"
+    },
+    {
+      "path": "assets/images/instagram/Captura de tela 2026-04-04 190901.png",
+      "filename": "Captura de tela 2026-04-04 190901.png",
+      "date": "2026-04-04T19:09:03.788971"
+    },
+    {
+      "path": "assets/images/instagram/Captura de tela 2026-04-04 190845.png",
+      "filename": "Captura de tela 2026-04-04 190845.png",
+      "date": "2026-04-04T19:08:47.249284"
+    },
+    {
+      "path": "assets/images/instagram/Captura de tela 2026-04-04 190822.png",
+      "filename": "Captura de tela 2026-04-04 190822.png",
+      "date": "2026-04-04T19:08:30.945149"
+    }
+  ],
+  "certificates": [],
+  "generated_at": "2026-04-04T19:12:39.277197"
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Psicóloga Clínica especializada em ACT e Análise do Comportamento. Atendimento online — Cascavel, PR.">
+    <meta name="author" content="Júlia de Carvalho">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Júlia de Carvalho — Psicóloga Clínica | CRP 08/41302">
+    <meta property="og:description" content="Terapia focada em autoestima e saúde emocional para te ajudar a priorizar quem mais importa: você.">
+    <meta property="og:type" content="website">
+
+    <title>Júlia de Carvalho | Psicóloga Clínica | CRP 08/41302</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#inicio" class="header__logo">
+                    <img src="assets/images/logo/logo_header_59.png" alt="Júlia de Carvalho">
+                </a>
+
+                <nav class="nav">
+                    <a href="#videos"      class="nav__link">Talvez te inspire</a>
+                    <a href="#sobre"       class="nav__link">Sobre</a>
+                    <a href="#metodo"      class="nav__link">Método</a>
+                    <a href="#diferenciais" class="nav__link">Diferenciais</a>
+                    <a href="#faq"         class="nav__link">FAQ</a>
+                </nav>
+
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HERO -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <span class="hero__badge">Disponível para atendimentos</span>
+                    <h1 class="hero__title">
+                        Você sente que carrega o mundo nas costas para não <span>decepcionar ninguém?</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Aprenda a estabelecer limites sem culpa. Terapia focada em autoestima e saúde emocional para te ajudar a priorizar quem mais importa: você.
+                    </p>
+                    <div class="hero__actions">
+                        <button class="btn btn--primary" id="ctaHero">
+                            <i class="fab fa-whatsapp"></i>
+                            Quero começar
+                        </button>
+                        <a href="#sobre" class="btn btn--secondary">
+                            Conheça minha história
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="assets/images/instagram/julia_perfil.jpg" alt="Júlia de Carvalho — Psicóloga Clínica">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. VÍDEOS DO INSTAGRAM -->
+    <section id="videos" class="section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Instagram</span>
+                <h2 class="section__title">Talvez te inspire</h2>
+                <p class="section__description">Reflexões e ferramentas práticas para o seu dia a dia.</p>
+            </div>
+
+            <!-- Carrossel -->
+            <div class="reel-carousel" id="reelCarousel">
+                <button class="reel-carousel__arrow reel-carousel__arrow--prev" id="reelPrev" aria-label="Anterior">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <div class="reel-carousel__track-wrapper">
+                    <div class="reel-carousel__track" id="reelTrack">
+
+                        <div class="reel-slide">
+                            <div class="reel-clip">
+                                <blockquote class="instagram-media"
+                                    data-instgrm-permalink="https://www.instagram.com/reel/DWZpvMbgZD_/"
+                                    data-instgrm-version="14"
+                                    style="width:100%;margin:0;">
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="reel-slide">
+                            <div class="reel-clip">
+                                <blockquote class="instagram-media"
+                                    data-instgrm-permalink="https://www.instagram.com/reel/DVOzZRFkXDJ/"
+                                    data-instgrm-version="14"
+                                    style="width:100%;margin:0;">
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="reel-slide">
+                            <div class="reel-clip">
+                                <blockquote class="instagram-media"
+                                    data-instgrm-permalink="https://www.instagram.com/reel/DTTiGNqgSeW/"
+                                    data-instgrm-version="14"
+                                    style="width:100%;margin:0;">
+                                </blockquote>
+                            </div>
+                        </div>
+
+                        <div class="reel-slide">
+                            <div class="reel-clip">
+                                <blockquote class="instagram-media"
+                                    data-instgrm-permalink="https://www.instagram.com/reel/DS2ep4egIyC/"
+                                    data-instgrm-version="14"
+                                    style="width:100%;margin:0;">
+                                </blockquote>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button class="reel-carousel__arrow reel-carousel__arrow--next" id="reelNext" aria-label="Próximo">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Indicadores -->
+            <div class="reel-dots" id="reelDots">
+                <button class="reel-dot active" data-index="0" aria-label="Vídeo 1"></button>
+                <button class="reel-dot" data-index="1" aria-label="Vídeo 2"></button>
+                <button class="reel-dot" data-index="2" aria-label="Vídeo 3"></button>
+                <button class="reel-dot" data-index="3" aria-label="Vídeo 4"></button>
+            </div>
+
+            <div class="section__cta">
+                <a href="https://instagram.com/psi.juliadecarvalho" target="_blank" class="btn btn--secondary">
+                    <i class="fab fa-instagram"></i>
+                    Ver mais no Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DIFICULDADES -->
+    <section id="dificuldades" class="section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Identificação</span>
+                <h2 class="section__title">Você se identifica com alguma dessas situações?</h2>
+            </div>
+
+            <div class="dificuldades__grid">
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-weight-hanging"></i></div>
+                    <p>Dificuldade para lidar com as demandas da vida adulta</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-heart-pulse"></i></div>
+                    <p>Ansiedade que atrapalha o dia a dia</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-cloud"></i></div>
+                    <p>Sensação de vazio ou falta de propósito</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-people-arrows"></i></div>
+                    <p>Dificuldade nos relacionamentos interpessoais</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-gauge-high"></i></div>
+                    <p>Autocobrança excessiva e baixa autoestima</p>
+                </div>
+                <div class="dif-card">
+                    <div class="dif-card__icon"><i class="fas fa-scale-balanced"></i></div>
+                    <p>Dificuldade em tomar decisões importantes</p>
+                </div>
+            </div>
+
+            <div class="dificuldades__text">
+                <p>Se você se identificou com alguma dessas situações, saiba que buscar ajuda é um passo importante. A terapia pode te ajudar a desenvolver novas formas de lidar com esses desafios.</p>
+                <button class="btn btn--primary" id="ctaDificuldades">
+                    <i class="fab fa-whatsapp"></i>
+                    Quero dar esse passo
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. MEU MÉTODO -->
+    <section id="metodo" class="section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Abordagem</span>
+                <h2 class="section__title">Como funciona o processo terapêutico</h2>
+                <p class="section__description">Trabalho com Análise do Comportamento e ACT — abordagens baseadas em evidências que unem ciência e acolhimento para te ajudar a construir uma vida mais significativa.</p>
+            </div>
+
+            <div class="metodo__content">
+                <div class="metodo__pilares">
+                    <div class="pilar">
+                        <div class="pilar__number">01</div>
+                        <div class="pilar__body">
+                            <h3 class="pilar__title">Acolhimento inicial</h3>
+                            <p class="pilar__text">Entender sua história, suas demandas e o que te trouxe até aqui. Sem julgamentos, com escuta genuína.</p>
+                        </div>
+                    </div>
+                    <div class="pilar">
+                        <div class="pilar__number">02</div>
+                        <div class="pilar__body">
+                            <h3 class="pilar__title">Avaliação</h3>
+                            <p class="pilar__text">Identificar padrões de comportamento e pensamento que estão impactando sua qualidade de vida.</p>
+                        </div>
+                    </div>
+                    <div class="pilar">
+                        <div class="pilar__number">03</div>
+                        <div class="pilar__body">
+                            <h3 class="pilar__title">Intervenção</h3>
+                            <p class="pilar__text">Desenvolver flexibilidade psicológica e ferramentas práticas para lidar com emoções difíceis e agir de acordo com seus valores.</p>
+                        </div>
+                    </div>
+                    <div class="pilar">
+                        <div class="pilar__number">04</div>
+                        <div class="pilar__body">
+                            <h3 class="pilar__title">Acompanhamento</h3>
+                            <p class="pilar__text">Construir mudanças duradouras e consolidar novos padrões que tornem sua vida mais autêntica e significativa.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="metodo__foto">
+                    <img src="assets/images/instagram/post_psicologo_neutro_2.jpg" alt="Júlia de Carvalho — sessão de atendimento">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. DIFERENCIAIS -->
+    <section id="diferenciais" class="section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Diferenciais</span>
+                <h2 class="section__title">Por que escolher fazer terapia comigo</h2>
+            </div>
+
+            <div class="diferenciais__grid">
+                <div class="diferencial-card">
+                    <div class="diferencial-card__icon"><i class="fas fa-laptop"></i></div>
+                    <h3>Atendimento 100% Online</h3>
+                    <p>Flexibilidade para fazer terapia de onde você estiver, sem deslocamento.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-card__icon"><i class="fas fa-flask"></i></div>
+                    <h3>Abordagem baseada em evidências</h3>
+                    <p>ACT e Análise do Comportamento com comprovação científica sólida.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-card__icon"><i class="fas fa-heart"></i></div>
+                    <h3>Ambiente acolhedor</h3>
+                    <p>Espaço seguro e sem julgamentos para você ser quem realmente é.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-card__icon"><i class="fas fa-toolbox"></i></div>
+                    <h3>Foco em resultados práticos</h3>
+                    <p>Ferramentas concretas para aplicar no dia a dia e gerar mudança real.</p>
+                </div>
+                <div class="diferencial-card">
+                    <div class="diferencial-card__icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Flexibilidade de horários</h3>
+                    <p>Agenda adaptada à sua rotina para que a terapia caiba na sua vida.</p>
+                </div>
+            </div>
+
+            <div class="section__cta">
+                <button class="btn btn--primary" id="ctaDiferenciais">
+                    <i class="fab fa-whatsapp"></i>
+                    Agendar uma conversa
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SOBRE MIM -->
+    <section id="sobre" class="section section--alt">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Sobre Mim</span>
+                <h2 class="section__title">Quem sou eu</h2>
+            </div>
+
+            <div class="about__content">
+                <div class="about__image">
+                    <img src="assets/images/instagram/julia_perfil.jpg" alt="Júlia de Carvalho — Psicóloga Clínica">
+                </div>
+                <div class="about__text">
+                    <p><strong>Júlia de Carvalho</strong> — CRP 08/41302</p>
+                    <p>Psicóloga clínica especializada em Análise do Comportamento e Terapia de Aceitação e Compromisso (ACT). Atuo com psicoterapia online, ajudando você a desenvolver flexibilidade psicológica e construir uma vida com mais significado e autenticidade.</p>
+                    <p>Minha missão é criar um espaço seguro onde você possa explorar sua história, reconhecer seus padrões e se aproximar cada vez mais de quem você quer ser — com coragem e sem julgamentos.</p>
+                    <a href="https://instagram.com/psi.juliadecarvalho" target="_blank" class="btn btn--secondary" style="margin-top:1.5rem;display:inline-flex;">
+                        <i class="fab fa-instagram"></i>
+                        @psi.juliadecarvalho
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section__header">
+                <span class="section__label">Dúvidas</span>
+                <h2 class="section__title">Perguntas Frequentes</h2>
+            </div>
+
+            <div class="faq__list">
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        Como funciona a primeira sessão?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>A primeira sessão é um momento de acolhimento onde vamos conversar sobre o que te trouxe até aqui, suas expectativas e como posso te ajudar. É uma oportunidade para você me conhecer e sentir se há conexão para iniciarmos o processo terapêutico.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        Quanto tempo dura cada sessão?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Cada sessão tem duração de 50 minutos, tempo padrão estabelecido para atendimentos psicológicos.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        Com que frequência devo fazer terapia?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>O mais comum é iniciar com sessões semanais. Com o tempo, podemos avaliar juntos a necessidade de ajustar a frequência conforme sua evolução.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        A terapia online é tão eficaz quanto a presencial?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Sim! Diversos estudos científicos comprovam que a terapia online tem a mesma eficácia da presencial. O importante é que você esteja em um ambiente confortável e com privacidade durante as sessões.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        Como faço para agendar uma sessão?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Você pode entrar em contato pelo WhatsApp clicando no botão desta página. Vamos conversar sobre horários disponíveis e tirar suas dúvidas antes de agendar.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        O que é ACT (Terapia de Aceitação e Compromisso)?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>ACT é uma abordagem terapêutica baseada em evidências que ajuda você a desenvolver flexibilidade psicológica, aceitar emoções difíceis sem ser dominado por elas, e agir de acordo com seus valores pessoais.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        Você atende por convênio?
+                        <i class="fas fa-chevron-down faq__icon"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Atualmente trabalho apenas com atendimentos particulares, o que garante maior flexibilidade e personalização no acompanhamento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__left">
+                    <img src="assets/images/logo/carimbo_circular.png" alt="Júlia de Carvalho" class="footer__logo">
+                </div>
+                <div class="footer__right">
+                    <div class="footer__social">
+                        <a href="https://instagram.com/psi.juliadecarvalho" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5545999952507" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                    <p class="footer__info">
+                        <strong>@psi.juliadecarvalho</strong> &nbsp;·&nbsp; CRP 08/41302 &nbsp;·&nbsp; Atendimento Online
+                    </p>
+                    <p class="footer__copy">
+                        &copy; 2026 Júlia de Carvalho. Todos os direitos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <button class="whatsapp-float" id="whatsappFloat" aria-label="Agendar atendimento via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </button>
+
+    <!-- Pre-register Modal -->
+    <div class="modal-overlay" id="preRegisterModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal">
+            <button class="modal__close" id="modalClose" aria-label="Fechar">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="modal__title" id="modalTitle">Iniciar Atendimento</h2>
+            <p class="modal__subtitle">Preencha seus dados e você será redirecionada para o WhatsApp da Júlia.</p>
+            <form id="preRegisterForm" class="modal__form" novalidate>
+                <div class="form-group">
+                    <label for="pr-name">Nome completo *</label>
+                    <input type="text" id="pr-name" name="name" required placeholder="Seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="pr-email">E-mail *</label>
+                    <input type="email" id="pr-email" name="email" required placeholder="seu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="pr-cpf">CPF *</label>
+                    <input type="text" id="pr-cpf" name="cpf" required placeholder="000.000.000-00" maxlength="14" inputmode="numeric">
+                </div>
+                <div class="form-group">
+                    <label for="pr-birth">Data de nascimento *</label>
+                    <input type="date" id="pr-birth" name="birth" required>
+                </div>
+                <div class="form-group">
+                    <label for="pr-phone">Telefone *</label>
+                    <input type="tel" id="pr-phone" name="phone" required placeholder="(00) 00000-0000" maxlength="15" inputmode="numeric">
+                </div>
+                <button type="submit" class="btn btn--primary" style="width:100%;margin-top:0.5rem;justify-content:center;">
+                    <i class="fab fa-whatsapp"></i>
+                    Enviar e ir para o WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+</body>
+</html>

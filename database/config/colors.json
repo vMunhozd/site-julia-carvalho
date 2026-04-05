@@ -1,0 +1,12 @@
+{
+  "primary":     "#3a3c22",
+  "secondary":   "#ece5d8",
+  "accent":      "#7b8a3c",
+  "accent_dark": "#5a6528",
+  "text":        "#2a2c18",
+  "text_muted":  "#6b6e42",
+  "background":  "#f7f0e6",
+  "surface":     "#ece5d8",
+  "border":      "rgba(58, 60, 34, 0.12)",
+  "source":      "Extraído de 'arquivo final - CORES-15.png' (olive/khaki) e 'arquivo final - CORES-49.png' (creme + olive)"
+}

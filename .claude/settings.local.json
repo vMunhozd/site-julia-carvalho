@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python analyze_and_generate_1.py)",
+      "Bash(python analyze_and_generate_1.py --database ./database --output ./site)",
+      "Bash(python -X utf8 analyze_and_generate_1.py --database ./database --output ./site)",
+      "Bash(python -c ':*)",
+      "Bash(python -X utf8 -c ':*)"
+    ]
+  }
+}

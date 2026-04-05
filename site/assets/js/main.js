@@ -261,23 +261,24 @@ function initPreRegisterModal() {
         const data = Object.fromEntries(new FormData(form));
         const birthFormatted = data.birth ? data.birth.split('-').reverse().join('/') : '';
 
-        // Send data to Google Sheets in background (no-cors, don't wait)
+        const dados = {
+            nome: data.name,
+            email: data.email,
+            cpf: data.cpf,
+            dataNascimento: birthFormatted,
+            telefone: data.phone
+        };
+
         fetch('https://script.google.com/macros/s/AKfycbxEBMdpJbj41QYLkOly48o2D4_W9QByLiprF7yCb_Y6DBPaC_pI-DffDGw2FuUazRqH/exec', {
             method: 'POST',
             mode: 'no-cors',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                nome: data.name,
-                email: data.email,
-                cpf: data.cpf,
-                dataNascimento: birthFormatted,
-                telefone: data.phone
-            })
+            body: JSON.stringify(dados)
         });
 
-        const message = encodeURIComponent('Olá! Vim pelo site e gostaria de mais informações sobre os atendimentos! 😊');
+        setTimeout(() => {
+            window.open('https://wa.me/5545999952507?text=Olá! Vim pelo site e gostaria de mais informações sobre os atendimentos! 😊', '_blank');
+        }, 1000);
 
-        window.open(`https://wa.me/5545999952507?text=${message}`, '_blank');
         closeModal();
         form.reset();
     });
